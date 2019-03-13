@@ -17,5 +17,13 @@ Topics covered:
 
 Time permitting:
 Intro to C++
-Porting the library to C++
-
+  -- intro to compilers and linkers
+  -- compiling your first program
+  -- statements and structure of c++ program
+  -- comments
+  -- data types
+  -- variables declarartion and assignment
+  -- iostream library
+  -- function defintion
+  -- pointers and references
+  
