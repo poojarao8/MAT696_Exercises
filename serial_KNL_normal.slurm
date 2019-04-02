@@ -1,5 +1,5 @@
 #!/bin/bash
-# Launch this job by executing this command on a Stampede2 login node:
+#Launch this job by executing this command on a Stampede2 login node:
 # sbatch serial_KNL_normal.slurm
 #
 # This script has been adapted from the Stampede2's webpage: https://portal.tacc.utexas.edu/user-guides/stampede2
@@ -11,12 +11,13 @@
 #SBATCH -p normal    # Queue name
 #SBATCH -N 1         # Total # of nodes (must be 1 for serial)
 #SBATCH -n 1         # Total # of mpi tasks (should be 1 for serial)
-#SBATCH -t 01:30:00  # Run time (hh:mm:ss)
+#SBATCH -t 00:01:00  # Run time (hh:mm:ss)
 #SBATCH --mail-user=myname@myschool.edu
-#SBATCH -A myproject # Allocation name (in case more than one)
+#SBATCH -A TG-DMS190011 # Allocation name (in case more than one)
 
 
 # Laaunch serial code
-./mycode.exe
+python hello_world.py
 
 #----------------------------------------------------------------------
+
