@@ -15,9 +15,13 @@
 #SBATCH --mail-user=myname@myschool.edu
 #SBATCH -A TG-DMS190011 # Allocation name (in case more than one)
 
+# other commands as necessary after #SBATCH driectives
+module list
+pwd
+date
 
-# Laaunch serial code
-python hello_world.py
+# Launch serial code
+python trapezoid.py 0 1 1000
 
 #----------------------------------------------------------------------
 
