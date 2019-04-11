@@ -21,7 +21,7 @@ pwd
 date
 
 # Launch serial code
-python trapezoid.py 0 1 1000
+python trapezoid_rule.py 0 1 1000
 
 #----------------------------------------------------------------------
 
