@@ -21,7 +21,8 @@ pwd
 date
 
 # Launch serial code
-python trapezoid_rule.py 0 1 1000
+python trapezoid_rule.py 0 1 1000 # change it to python3 if running with it
+# if using python3, make sure it's loaded in your environment
 
 #----------------------------------------------------------------------
 
