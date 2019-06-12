@@ -2,7 +2,7 @@
 
 This repo contains the weekly lecture material and exercises for the course Computational Tools and Techniques in STEM (MAT 696). 
 
-Project: Develop a parallelized Python library simulatig particle collisions.
+Project: Develop a parallelized Python library simulating particle collisions.
 
 Topics covered:
 1. Intro to Python programming.
